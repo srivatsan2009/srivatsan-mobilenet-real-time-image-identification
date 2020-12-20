@@ -1,0 +1,72 @@
+canvas {
+border: 10px dotted goldenrod;
+box-shadow: 5px 5px 60px red;
+margin-top: 120px;
+}
+@keyframes example3 {
+0% {color: yellowgreen};
+25% {color: yellow};
+50% {color: goldenrod};
+100% {color:chocolate};
+}
+.copy_right_footer {
+float:none;
+position: fixed; 
+bottom:0;
+animation:infinite 1s example2;
+width:100%;
+text-align: center;
+background-color: black;
+font-style: italic;
+} 
+@keyframes example2 {
+0% {color: yellowgreen};
+25% {color: yellow};
+50% {color: goldenrod};
+100% {color:chocolate};
+}
+body {
+animation: infinite 6s example1;
+}
+@keyframes example1 {
+0% {background-image:URL("background2.jpg")};
+50% {background-image:URL("background.jpg")};
+100% {background-image:URL("background3.jpg")};
+}
+.heading
+  {
+    width: 100%;
+    margin: 0px;
+    box-shadow:5px 5px 5px grey;
+    animation:infinite 5s example;
+    font-size:20px;
+    font-style: oblique;
+  }
+  @keyframes example{
+ 0% {background-color: green};
+ 25% {background-color: silver};
+ 50% {background-color: goldenrod};
+ 100% {background-color: black};
+  }
+  .heading_1
+  {
+    background: white ; 
+    border-radius: 20px; 
+    color: black;
+    box-shadow:5px 5px 5px grey;
+    float: none;
+    
+  }
+  .heading_div2
+  {
+    font-size: 18px ;
+  }
+  .result
+  {
+    animation:infinite 1s example3;
+    box-shadow:5px 5px 5px grey;
+    font-size: 20px;
+  }
+ .result span{
+  white-space: pre-line;
+ }
